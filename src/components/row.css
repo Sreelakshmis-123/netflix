@@ -1,0 +1,30 @@
+.row{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+ ::-webkit-scrollbar{       /* scroll bar kanathe irikan*/
+    display: none;
+}
+
+.movies-row{
+    display: flex;                  /* same row display cheyan*/
+    overflow-x: scroll;             /* scroll cheyumbol sidelotte pokan vendiyitte*/
+    margin-top: 20px;
+}
+
+.movie{
+    width: 100%;
+    max-height: 200px;
+    margin-right: 20px;
+    object-fit: contain;           /* */
+    transition: transform 460ms;
+}
+
+.movie:hover{
+    transform: scale(1.06);
+}
+
+.movie-poster{
+    max-height: 380px;
+}
